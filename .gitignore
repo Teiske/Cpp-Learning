@@ -15,5 +15,10 @@ LoopsInC++.sln
 LoopsInC++.vcxproj
 LoopsInC++.vcxproj.filters
 
+/---Functions---/
+FunctionsInC++.sln
+FunctionsInC++.vcxproj
+FunctionsInC++.vcxproj.filters
+
 .vs
 Debug

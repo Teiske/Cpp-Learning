@@ -1,0 +1,11 @@
+//Introduction to c++
+TheBasicsOfC++.sln
+TheBasicsOfC++.vcxproj
+TheBasicsOfC++.vcxproj.filters
+
+
+Debug
+bin
+obj
+Properties
+.vs

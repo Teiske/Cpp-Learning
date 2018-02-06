@@ -1,24 +1,36 @@
-//Introduction to c++
+//Introduction and Basic C++ Features
 
 /---Basics---/
 TheBasicsOfC++.sln
 TheBasicsOfC++.vcxproj
 TheBasicsOfC++.vcxproj.filters
+TheBasicsOfC++.vcxproj.user
 
 /---If Statements---/
 IfStatementsInC++.sln
 IfStatementsInC++.vcxproj
 IfStatementsInC++.vcxproj.filters
+IfStatementsInC++.vcxproj.user
 
 /---Loops---/
 LoopsInC++.sln
 LoopsInC++.vcxproj
 LoopsInC++.vcxproj.filters
+LoopsInC++.vcxproj.user
 
 /---Functions---/
 FunctionsInC++.sln
 FunctionsInC++.vcxproj
 FunctionsInC++.vcxproj.filters
+FunctionsInC++.vcxproj.user
+
+/---Switch Case---/
+SwitchCaseInC++.sln
+SwitchCaseInC++.vcxproj
+SwitchCaseInC++.vcxproj.filters
+SwitchCaseInC++.vcxproj.user
+
+//Pointers, Arrays and Strings
 
 .vs
 Debug

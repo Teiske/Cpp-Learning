@@ -10,8 +10,10 @@ IfStatementsInC++.sln
 IfStatementsInC++.vcxproj
 IfStatementsInC++.vcxproj.filters
 
-Debug
-bin
-obj
-Properties
+/---Loops---/
+LoopsInC++.sln
+LoopsInC++.vcxproj
+LoopsInC++.vcxproj.filters
+
 .vs
+Debug

@@ -2,7 +2,6 @@
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
-VariableListsInC++
 .vs
 Debug
 Release

@@ -31,7 +31,6 @@ int main() {
 	}
 
 	cout << "\n";
-
 	cin.get();
 
 	//Compares a string
@@ -47,5 +46,23 @@ int main() {
 		return 0;
 	}
 
-	cin.get();
+	cout << "\n";
+
+	//Checks if two inpyt string are both true
+	string user_username;
+	string user_password;
+
+	cout << "Enter your username: " << "\n";
+	getline(cin, user_username, '\n');
+
+	cout << "Enter your password: " << "\n";
+	getline(cin, user_password, '\n');
+	if (user_username == "root" && user_password == "xyzzy") {
+		cout << "Acces allowed " << "\n";
+	}
+	else {
+		cout << "Bad username or password. Denied acces!" << "\n";
+		return 0;
+	}
+
 }

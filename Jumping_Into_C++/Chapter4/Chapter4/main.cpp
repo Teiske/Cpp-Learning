@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -27,6 +28,23 @@ int main() {
 	}
 	else {
 		cout << "You entered a non-negative number\n";
+	}
+
+	cout << "\n";
+
+	cin.get();
+
+	//Compares a string
+	string password;
+
+	cout << "Enter your password: " << "\n";
+	getline(cin, password, '\n');
+	if (password == "xyzzy") {
+		cout << "Acces allowed " << "\n";
+	}
+	else {
+		cout << "Bad password. Denied acces!" << "\n";
+		return 0;
 	}
 
 	cin.get();

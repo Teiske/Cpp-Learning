@@ -22,6 +22,9 @@ int main() {
 	if (num < 0) {
 		cout << "You entered a negative number\n";
 	}
+	else if (num == 0) {
+		cout << "You entered zero\n";
+	}
 	else {
 		cout << "You entered a non-negative number\n";
 	}

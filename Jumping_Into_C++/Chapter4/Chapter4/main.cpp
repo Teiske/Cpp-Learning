@@ -33,36 +33,45 @@ int main() {
 	cout << "\n";
 	cin.get();
 
-	//Compares a string
-	string password;
+	//Checks if two input string are both true
+	string user_username;
+	string user_password;
 
-	cout << "Enter your password: " << "\n";
-	getline(cin, password, '\n');
-	if (password == "xyzzy") {
-		cout << "Acces allowed " << "\n";
+	cout << "enter your username: " << "\n";
+	getline(cin, user_username, '\n');
+
+	cout << "enter your password: " << "\n";
+	getline(cin, user_password, '\n');
+	if (user_username == "root" && user_password == "xyzzy") {
+		cout << "acces allowed " << "\n";
 	}
 	else {
-		cout << "Bad password. Denied acces!" << "\n";
+		cout << "bad username or password. denied acces!" << "\n";
 		return 0;
 	}
 
 	cout << "\n";
 
-	//Checks if two inpyt string are both true
-	string user_username;
-	string user_password;
+	//Practice problem 1
+	int user_age_one;
+	int user_age_two;
 
-	cout << "Enter your username: " << "\n";
-	getline(cin, user_username, '\n');
+	cout << "Enter the first age: " << "\n";
+	cin >> user_age_one;
+	cout << "Enter the second age: " << "\n";
+	cin >> user_age_two;
 
-	cout << "Enter your password: " << "\n";
-	getline(cin, user_password, '\n');
-	if (user_username == "root" && user_password == "xyzzy") {
-		cout << "Acces allowed " << "\n";
+	if (user_age_one && user_age_two >= 100) {
+		cout << "User 1 and user 2 are both older then 100, how are they still alive?\n";
+	}
+	else if (user_age_one == user_age_two) {
+		cout << "User 1 and user 2 are the same age\n";
+	}
+	else if (user_age_one < user_age_two) {
+		cout << "User 1 is younger then user 2\n";
 	}
 	else {
-		cout << "Bad username or password. Denied acces!" << "\n";
-		return 0;
+		cout << "User 1 is older then user 2\n";
 	}
 
 }
